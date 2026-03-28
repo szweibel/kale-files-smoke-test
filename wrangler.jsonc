@@ -1,0 +1,7 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "kale-files-smoke-test",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-03-26",
+  "r2_buckets": [{ "binding": "FILES", "bucket_name": "local-kale-files-smoke-test-files" }]
+}
